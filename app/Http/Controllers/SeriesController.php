@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class SeriesController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
         /*
         | query ordenada por nomes
@@ -15,13 +15,15 @@ class SeriesController extends Controller
         | $series = Serie::query()->orderBy('nome')->get();
         */
         $series = Serie::all();
+        $mensagemSucesso = session('mensagem.sucesso');
 
         /*
         | pode utilizar a função compact('series'));
         | exemplo:
         | return view('listar-series', compact('series'));
         */
-        return view('series.index')->with('series', $series);
+        return view('series.index')->with('series', $series)
+            ->with('mensagemSucesso', $mensagemSucesso);
     }
 
     public function create()
@@ -33,6 +35,7 @@ class SeriesController extends Controller
     {
         //Serie::create($request->only(['nome']));
         Serie::create($request->all());
+        $request->session()->flash('mensagem.sucesso', 'Série adicionada com sucesso');
 
         return to_route('series.index');
     }
@@ -40,6 +43,7 @@ class SeriesController extends Controller
     public function destroy(Request $request)
     {
         Serie::destroy($request->series);
+        $request->session()->flash('mensagem.sucesso', 'Série removida com sucesso');
 
         return to_route('series.index');
     }

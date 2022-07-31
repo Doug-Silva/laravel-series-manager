@@ -3,6 +3,12 @@
 
     <a href="{{ route('series.create') }}" class="btn btn-dark mb-2">Adicionar</a>
 
+    @isset($mensagemSucesso)
+        <div class="alert alert-success">
+            {{ $mensagemSucesso }}
+        </div>
+    @endisset
+
     <ul class="list-group">
         {{--código php simplificado utilizando Blade--}}
         @foreach ($series as $serie)
