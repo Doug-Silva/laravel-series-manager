@@ -1,3 +1,4 @@
+{{--estrutura html customizada do Blade--}}
 <x-layout title="Nova Série">
     <form action="/series/salvar" method="post">
         @csrf
