@@ -1,7 +1,7 @@
 {{--estrutura html customizada do Blade--}}
 <x-layout title="Séries">
 
-    <a href="/series/criar" class="btn btn-dark mb-2">Adicionar</a>
+    <a href="{{ route('series.create') }}" class="btn btn-dark mb-2">Adicionar</a>
 
     <ul class="list-group">
         {{--código php simplificado utilizando Blade--}}

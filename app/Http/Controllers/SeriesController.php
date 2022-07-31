@@ -34,6 +34,6 @@ class SeriesController extends Controller
         //Serie::create($request->only(['nome']));
         Serie::create($request->all());
 
-        return redirect('/series');
+        return to_route('series.index');
     }
 }
