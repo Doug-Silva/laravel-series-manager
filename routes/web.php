@@ -3,6 +3,7 @@
 use App\Http\Controllers\EpisodesController;
 use App\Http\Controllers\SeasonsController;
 use App\Http\Controllers\SeriesController;
+use App\Http\Middleware\Autenticador;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,7 +19,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return redirect('/series');
-});
+})->middleware(Autenticador::class);
 
 //Route::controller(SeriesController::class)->group(function () {
 //    Route::get('/series', 'index')->name('series.index');
