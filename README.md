@@ -9,7 +9,7 @@
 
 ## Gerenciador de séries
 
-Um gerenciador de séries assistidas, projetado utilizando o framework Laravel.<br>
+Um gerenciador de séries assistidas, desenvolvido com o framework Laravel.<br>
 O usuário pode cadastrar o nome da série, a quantidade de temporadas e episódios. 
 Podendo também ser marcado quais episódios já foram assistidos pelo usuário.
 
