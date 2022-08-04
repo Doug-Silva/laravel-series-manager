@@ -26,7 +26,7 @@ Podendo também ser marcado quais episódios já foram assistidos pelo usuário.
 
     https://
 
-🡇 Para clonar o projeto
+🡇 Comando no terminal para clonar o projeto
 
     git clone https://github.com/Doug-Silva/php-laravel-controle-series.git
 
