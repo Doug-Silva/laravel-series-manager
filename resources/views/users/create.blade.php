@@ -1,8 +1,6 @@
-{{--estrutura html customizada do Blade--}}
 <x-layout title="Novo usuário">
     <form method="post">
         @csrf
-
         <div class="form-group">
             <label for="name" class="form-label">Nome</label>
             <input type="text" name="name" id="name" class="form-control">
@@ -16,9 +14,10 @@
         <div class="form-group">
             <label for="password" class="form-label">Senha</label>
             <input type="password" name="password" id="password" class="form-control">
-
-            <button class="btn btn-primary mt-3">Registrar</button>
         </div>
+
+        <button class="btn btn-primary mt-3">
+            Registrar
+        </button>
     </form>
 </x-layout>
-

@@ -1,4 +1,3 @@
-{{--estrutura html customizada do Blade--}}
 <x-layout title="Temporadas de {!! $series->nome !!}">
     <ul class="list-group">
         @foreach ($seasons as $season)
@@ -14,4 +13,3 @@
         @endforeach
     </ul>
 </x-layout>
-

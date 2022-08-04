@@ -1,4 +1,3 @@
-{{--estrutura html customizada do Blade--}}
 <x-layout title="Episódios" :mensagem-sucesso="$mensagemSucesso">
     <form method="post">
         @csrf
@@ -10,8 +9,7 @@
                     <input type="checkbox"
                            name="episodes[]"
                            value="{{ $episode->id }}"
-                           @if($episode->watched) checked @endif
-                    />
+                           @if ($episode->watched) checked @endif />
                 </li>
             @endforeach
         </ul>
@@ -19,4 +17,3 @@
         <button class="btn btn-primary mt-2 mb-2">Salvar</button>
     </form>
 </x-layout>
-
