@@ -24,7 +24,7 @@ Podendo também ser marcado quais episódios já foram assistidos pelo usuário.
 ## 🚀 Iniciar
 🔗 Link do site
 
-    https://
+    http://gerencia-series.herokuapp.com
 
 🡇 Comando no terminal para clonar e configurar o projeto
 
