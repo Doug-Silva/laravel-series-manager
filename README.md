@@ -30,7 +30,7 @@ Podendo também ser marcado quais episódios já foram assistidos pelo usuário.
 
     git clone https://github.com/Doug-Silva/php-laravel-controle-series.git
 
-📂 Comando no terminal para criar o arquivo .env
+📂 Entre na pasta do seu projeto clonado, e rode no terminal os comandos abaixo
 
     npm install
     composer install
