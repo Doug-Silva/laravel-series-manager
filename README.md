@@ -38,6 +38,11 @@ Podendo também ser marcado quais episódios já foram assistidos pelo usuário.
     npm install
     clear
     php artisan serve
+    
+💻 Abra o projeto na sua IDE de preferência
+
+- [Visual Studio Code](https://code.visualstudio.com/download)
+- [PhpStorm](https://www.jetbrains.com/phpstorm)
 
 🌐 Acesse o arquivo .env depois exclua essa parte
 
