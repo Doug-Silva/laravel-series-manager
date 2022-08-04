@@ -25,6 +25,8 @@ Podendo também ser marcado quais episódios já foram assistidos pelo usuário.
 
 - Link do site no Heroku: http://gerencia-series.herokuapp.com
 
+##
+
 🡇 Comando no terminal para clonar e configurar o projeto
 
     git clone https://github.com/Doug-Silva/gerenciador-series-laravel.git
@@ -38,10 +40,14 @@ Podendo também ser marcado quais episódios já foram assistidos pelo usuário.
     clear
     php artisan serve
     
+##
+    
 💻 Abra o projeto na sua IDE de preferência
 
 - [Visual Studio Code](https://code.visualstudio.com/download)
 - [PhpStorm](https://www.jetbrains.com/phpstorm)
+
+##
 
 ❌ Acesse o arquivo .env depois exclua essa parte
 
