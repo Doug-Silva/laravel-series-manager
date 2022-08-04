@@ -39,7 +39,17 @@ Podendo também ser marcado quais episódios já foram assistidos pelo usuário.
     clear
     php artisan serve
 
-🌐 Configure o banco de dados MySQL, no seu localhost
+🌐 Acesse o arquivo .env depois exclua essa parte
+
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=laravel
+    DB_USERNAME=root
+    DB_PASSWORD=
+
+🌐 No arquivo .env utilize o código abaixo para usar o sqlite 
+
+    DB_CONNECTION=sqlite
 
 ## 🔨 Seja um dos contribuidores<br>
 Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
