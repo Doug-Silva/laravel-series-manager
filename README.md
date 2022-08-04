@@ -26,24 +26,21 @@ Podendo também ser marcado quais episódios já foram assistidos pelo usuário.
 
     https://
 
-🡇 Comando no terminal para clonar o projeto
+🡇 Comando no terminal para clonar e configurar o projeto
 
     git clone https://github.com/Doug-Silva/php-laravel-controle-series.git
-
-📂 Entre na pasta do seu projeto clonado, e rode no terminal os comandos abaixo
-
-    npm install
+    cd php-laravel-controle-series
     composer install
     mv .env.example .env
     php artisan cache:clear
     composer dump-autoload
     php artisan key:generate
-
-💻 Configure o banco de dados MySQL, no seu localhost
-
-🌐 Comando no terminal para iniciar o servidor do laravel
-
+    npm install
+    npm audit fix
+    clear
     php artisan serve
+
+🌐 Configure o banco de dados MySQL, no seu localhost
 
 ## 🔨 Seja um dos contribuidores<br>
 Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
