@@ -32,7 +32,8 @@ Podendo também ser marcado quais episódios já foram assistidos pelo usuário.
 
 📂 Comando no terminal para criar o arquivo .env
 
-    composer install 
+    composer install
+    npm install
     mv .env.example .env
     php artisan cache:clear
     composer dump-autoload
