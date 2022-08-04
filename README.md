@@ -36,7 +36,6 @@ Podendo também ser marcado quais episódios já foram assistidos pelo usuário.
     composer dump-autoload
     php artisan key:generate
     npm install
-    npm audit fix
     clear
     php artisan serve
 
