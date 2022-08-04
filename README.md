@@ -29,7 +29,7 @@ Podendo também ser marcado quais episódios já foram assistidos pelo usuário.
 🡇 Comando no terminal para clonar e configurar o projeto
 
     git clone https://github.com/Doug-Silva/gerenciador-series-laravel.git
-    cd php-laravel-controle-series
+    cd gerenciador-series-laravel
     composer install
     mv .env.example .env
     php artisan cache:clear
