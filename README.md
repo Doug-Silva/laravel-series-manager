@@ -44,7 +44,7 @@ Podendo também ser marcado quais episódios já foram assistidos pelo usuário.
 - [Visual Studio Code](https://code.visualstudio.com/download)
 - [PhpStorm](https://www.jetbrains.com/phpstorm)
 
-🌐 Acesse o arquivo .env depois exclua essa parte
+❌ Acesse o arquivo .env depois exclua essa parte
 
     DB_HOST=127.0.0.1
     DB_PORT=3306
