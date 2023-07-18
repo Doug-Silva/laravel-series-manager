@@ -41,6 +41,8 @@ Podendo também ser marcado quais episódios já foram assistidos pelo usuário.
     npm install
     clear
     php artisan serve
+    code .
+    php artisan migrate
     
 ##
     
