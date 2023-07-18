@@ -23,7 +23,7 @@ Podendo também ser marcado quais episódios já foram assistidos pelo usuário.
 
 ## 🚀 Iniciar
 
-- Link do site no Heroku: http://gerencia-series.herokuapp.com
+- Link do site no Railway:
 
 ##
 
