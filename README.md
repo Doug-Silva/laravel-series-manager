@@ -41,16 +41,8 @@ Podendo também ser marcado quais episódios já foram assistidos pelo usuário.
     npm install
     clear
     code .
-    php artisan migrate
     php artisan serve
     
-##
-    
-💻 Abra o projeto na sua IDE de preferência
-
-- [Visual Studio Code](https://code.visualstudio.com/download)
-- [PhpStorm](https://www.jetbrains.com/phpstorm)
-
 ##
 
 ❌ Acesse o arquivo .env depois exclua essa parte
@@ -65,6 +57,19 @@ Podendo também ser marcado quais episódios já foram assistidos pelo usuário.
 🌐 No arquivo .env utilize o código abaixo para usar o sqlite 
 
     DB_CONNECTION=sqlite
+
+##
+
+🡇 Comando no terminal para criar as tabelas no banco de dados
+
+    php artisan migrate
+    
+##
+
+💻 Abra o projeto na sua IDE de preferência
+
+- [Visual Studio Code](https://code.visualstudio.com/download)
+- [PhpStorm](https://www.jetbrains.com/phpstorm)
 
 ## 🔨 Seja um dos contribuidores<br>
 Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
