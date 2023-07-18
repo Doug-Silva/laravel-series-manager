@@ -35,6 +35,8 @@ Podendo também ser marcado quais episódios já foram assistidos pelo usuário.
     mv .env.example .env
     php artisan cache:clear
     composer dump-autoload
+    composer install --no-scripts
+    composer update
     php artisan key:generate
     npm install
     clear
