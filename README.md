@@ -40,6 +40,7 @@ Podendo também ser marcado quais episódios já foram assistidos pelo usuário.
     php artisan key:generate
     npm install
     clear
+    code .
     php artisan serve
     
 ##
