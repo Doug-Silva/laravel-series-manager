@@ -23,7 +23,7 @@ Podendo também ser marcado quais episódios já foram assistidos pelo usuário.
 
 ## 🚀 Iniciar
 
-- Link do site no Railway:
+- Link do site no Railway: https://series-laravel.up.railway.app
 
 ##
 
