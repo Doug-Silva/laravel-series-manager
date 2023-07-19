@@ -2,7 +2,6 @@
 
 namespace App\Providers;
 
-use Illuminate\Routing\UrlGenerator;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
 use Illuminate\Support\Facades\Gate;
 
@@ -22,14 +21,10 @@ class AuthServiceProvider extends ServiceProvider
      *
      * @return void
      */
-
-    public function boot(UrlGenerator $url)
+    public function boot()
     {
         $this->registerPolicies();
 
-        if(env('APP_ENV') !== 'local')
-        {
-            $url->forceSchema('https');
-        }
+        //
     }
 }
